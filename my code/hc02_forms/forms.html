@@ -11,6 +11,7 @@
 
     <form action="result.html" method="get">
       <section id="name">
+        <!-- name -->
         <label for="isim">Isim</label> <br />
         <input
           type="text"
@@ -19,13 +20,60 @@
           name="isim"
           value=""
         />
+        <!-- email -->
+        <br />
+        <br />
+        <label for="email">Email</label> <br />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Email giriniz"
+          required
+        />
+
         <!-- placeholder yaziyi iceri yazar -->
         <!-- label lar ile etiketler konulur -->
         <br />
         <br />
         <br />
-        <input type="submit" />
-        <input type="reset" value="Sil" />
+        <!-- password -->
+        <label for="pass">Password</label><br />
+        <input
+          type="password"
+          id="pass"
+          name="pass"
+          placeholder="En az 8 karakter giriniz."
+        />
+        <br />
+        <br />
+
+        <label for="alder">Alder</label><br />
+        <input
+          type="number"
+          id="alder"
+          name="alder"
+          max="160"
+          placeholder="Yasinizi giriniz."
+        />
+        <br />
+        <!-- GENDER -->
+        <p>Gender</p>
+
+        <label for="Erkek">Erkek</label>
+        <input type="radio" id="erkek" name="gender" value="Erkek" />
+
+        <label for="kadin">Kadin</label>
+        <input type="radio" id="kadin" name="gender" value="Kadin" />
+
+        <br />
+        <br />
+
+        <section>
+          <input type="submit" />
+          <input type="reset" value="Sil" />
+        </section>
+        <br />
       </section>
     </form>
   </body>

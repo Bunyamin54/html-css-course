@@ -1,0 +1,8 @@
+/*! universal selctor */
+/*? tum elementleri secer*/
+
+* {
+  margin: 0;
+  padding: 0;
+  color: yellow;
+}

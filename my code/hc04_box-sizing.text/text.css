@@ -37,3 +37,10 @@ body {
   text-decoration: line-through; /*? üzerini ciz*/
   text-decoration: none; /*? defeult*/
 }
+
+.spacing {
+  color: yellowgreen;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  line-height: 1.5;
+}

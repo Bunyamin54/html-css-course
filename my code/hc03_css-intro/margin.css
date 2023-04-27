@@ -17,7 +17,7 @@
   text-align: center;
 
   /*? container div'ine her yonde 10px'lik bir ic alan acmis olduk. */
-  padding: 10px;
+  /* padding: 10px; */
   padding: 20px 10px;
 }
 
@@ -31,6 +31,6 @@
   border-radius: 10px;
 
   /*? Bir blok element içersindeki bir başka blok element margin : auto ile ortalanabilir. */
-  margin: auto;
+  /* margin: auto; */
   margin: 20px auto;
 }

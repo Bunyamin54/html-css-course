@@ -19,6 +19,9 @@ body {
   font-style: italic;
 
   font-variant: small-caps;
+
+  /*? Hizalama left,right,center, justify*/
+  text-align: justify;
 }
 
 /** Descendant Selector */
@@ -32,15 +35,27 @@ body {
 
 .decoration {
   color: green;
+
   text-decoration: overline; /*? ust cizgi*/
   text-decoration: underline; /*? alt cizgi*/
   text-decoration: line-through; /*? üzerini ciz*/
-  text-decoration: none; /*? defeult*/
+  text-decoration: none; /*? default*/
+}
+.transformation {
+  color: blueviolet;
+  text-transform: capitalize;
+  text-transform: uppercase;
+  text-transform: lowercase;
+  text-transform: none;
 }
 
 .spacing {
   color: yellowgreen;
-  letter-spacing: 2px;
-  word-spacing: 5px;
-  line-height: 1.5;
+  letter-spacing: 4px; /*?Harfler arasi mesafe*/
+  word-spacing: 10px; /*?Kelimler arasi mesafe*/
+  line-height: 1.4; /*?satir yükseliği*/
+}
+
+.indent {
+  text-indent: 30px;
 }

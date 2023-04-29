@@ -11,4 +11,5 @@ ul {
   padding: 10;
 
   /* ?madde imlerinin solundaki boslugu pading ile veririz */
+  list-style-image: url("./paper-plane-regular.svg");
 }

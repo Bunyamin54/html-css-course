@@ -126,3 +126,7 @@ nav.links a:hover {
 .p-elements::first-line {
   color: red;
 }
+
+.p-elements::first-letter {
+  font-size: 20px;
+}

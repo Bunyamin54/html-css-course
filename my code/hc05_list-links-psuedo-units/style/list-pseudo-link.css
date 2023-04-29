@@ -8,5 +8,7 @@ ul {
 
   list-style-position: inside;
   list-style-position: inherit;
-  padding: 0;
+  padding: 10;
+
+  /* ?madde imlerinin solundaki boslugu pading ile veririz */
 }

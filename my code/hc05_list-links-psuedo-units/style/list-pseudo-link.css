@@ -1,4 +1,10 @@
+body {
+  font-family: "Instrument Serif", serif;
+}
+
 ul {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   /*? madde imi stilleri */
   list-style: circle;
   list-style-type: square;

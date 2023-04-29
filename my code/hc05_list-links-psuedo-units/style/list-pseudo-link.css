@@ -13,3 +13,11 @@ ul {
   /* ?madde imlerinin solundaki boslugu pading ile veririz */
   list-style-image: url("./paper-plane-regular.svg");
 }
+
+h2 i {
+  font-size: 40px;
+}
+
+.fa-solid {
+  color: red;
+}

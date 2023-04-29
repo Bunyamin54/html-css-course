@@ -8,6 +8,11 @@
 h1 {
   margin: 20px 0;
   cursor: pointer;
+  background-color: aqua;
+  border-radius: 10px;
+  padding: 10px;
+  opacity: 0.5;
+  color: red;
 }
 
 .top-nav a {
@@ -21,4 +26,9 @@ h1 {
   display: inline-block;
   margin-bottom: 10px;
   margin-right: 10px;
+}
+.top-nav a:hover {
+  background-color: #12d533;
+  opacity: 0, 5;
+  color: red;
 }

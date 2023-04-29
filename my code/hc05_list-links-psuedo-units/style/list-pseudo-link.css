@@ -1,0 +1,9 @@
+ul {
+  /*? madde imi stilleri */
+  list-style: circle;
+  list-style-type: square;
+  list-style-type: upper-alpha;
+
+  list-style-position: inside;
+  list-style-position: inherit;
+}

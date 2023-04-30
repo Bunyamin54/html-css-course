@@ -68,8 +68,8 @@ ul.pseudo li:nth-child(even) {
 
 /*?Tek degilse */
 /* ul.pseudo li:not(odd) {
-    background-color: green;
-  } */
+  background-color: green;
+} */
 
 /*? Fare ile li'lerin üzerine gelindiğinde  */
 ul.pseudo li:hover {
@@ -90,7 +90,17 @@ input:focus {
   outline: none;
 }
 
-/*! ------ LINK PSEUDO CLASSES  */
+/*! ------ LINK PSEUDO CLASSES --------  */
+
+/* nav.links a {
+  color: crimson;
+  text-decoration: none;
+}
+
+nav.links a:hover {
+  color: purple;
+  text-decoration: underline;
+} */
 
 /*? Ziyaret edilmemis link'leri secmek icin */
 nav.links a:link {
@@ -113,15 +123,15 @@ nav.links a:hover {
 
 /*? class'i x olan p elementinin icerinde .y class'inin içindeki z id'li elementi sec  */
 /* p.x .y #z{
-  }
-  <p class="x">
-  <div class="y">
-    <div id="z"></div>
-    <div class="k"></div>  
-  </div>
-  </p> */
+}
+<p class="x">
+<div class="y">
+  <div id="z"></div>
+  <div class="k"></div>  
+</div>
+</p> */
 
-/* !pseudo elemenets */
+/*! ------  PSEUDO ELEMENTS --------  */
 
 .p-elements::first-line {
   color: red;
@@ -129,4 +139,27 @@ nav.links a:hover {
 
 .p-elements::first-letter {
   font-size: 30px;
+}
+
+ul.before-after li::before {
+  content: "👏";
+}
+
+ul.before-after li:nth-child(3)::before {
+  content: "🚘";
+}
+
+ul.before-after li:last-child::after {
+  content: "🏎️";
+}
+
+ul.before-after li:nth-child(2)::after {
+  content: " Nice Car";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 600;
+  content: "\f53a";
+}
+
+ul.before-after li:nth-child(3):hover::after {
+  content: "🚘";
 }

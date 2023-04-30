@@ -15,18 +15,22 @@ header {
   background-color: darksalmon;
   border-radius: 10px;
   font-weight: bolder;
+  word-spacing: 3px;
 }
 
 .home {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: bold;
   font-style: italic;
+  word-spacing: 5px;
 }
 
 .h2 {
   font-style: italic;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: larger;
+  text-transform: uppercase;
+  letter-spacing: 5px;
 }
 
 body {

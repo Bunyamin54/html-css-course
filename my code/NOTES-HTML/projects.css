@@ -19,3 +19,8 @@ header {
 body {
   background-color: antiquewhite;
 }
+
+.message {
+  text-align: center;
+  padding-top: 40px;
+}

@@ -29,6 +29,7 @@ header {
   font-style: italic;
   word-spacing: 5px;
   cursor: pointer;
+  font-size: larger;
 }
 
 .h2 {
@@ -37,6 +38,7 @@ header {
   font-size: larger;
   text-transform: uppercase;
   letter-spacing: 5px;
+  font-size: larger;
 }
 
 body {

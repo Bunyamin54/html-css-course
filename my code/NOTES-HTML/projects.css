@@ -51,7 +51,5 @@ body {
   display: flex;
   gap: 30px;
   justify-content: center;
-}
-.git {
-  list-style-image: url(../assets/img/github.svg);
+  text-transform: lowercase;
 }

@@ -82,3 +82,10 @@ p.percent {
   font-size: 3rem;
 }
 /* ! css de daha cok rem kullanmak tercih ediliyor. */
+
+.box {
+  background-color: lightcoral;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}

@@ -52,18 +52,18 @@ p.percent {
 .div4 {
   background-color: indigo;
   color: white;
-  font-size: 2em;
+  font-size: 1em;
   width: 150px;
 }
 .div5 {
   background-color: lightblue;
   color: white;
-  font-size: 1em;
+  font-size: 2em;
   width: 150px;
 }
 .div6 {
   background-color: yellowgreen;
   color: white;
-  font-size: 1em;
+  font-size: 3em;
   width: 150px;
 }

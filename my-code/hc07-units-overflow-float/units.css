@@ -23,8 +23,10 @@ p.percent {
 }
 .div2 {
   background-color: forestgreen;
+  width: 50%;
 }
 
 .div3 {
   background-color: blue;
+  width: 50%;
 }

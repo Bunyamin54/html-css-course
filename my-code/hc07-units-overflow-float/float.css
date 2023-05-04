@@ -1,3 +1,18 @@
 /*! Folat layout sistemi Sayfa yerlestirme sistemi akisi degistiriyor. */
 /* ?Felx box posi-lion propertysini Float ,dispaly , css grid yontemleri ile layout degistirilebilir */
 /* !layout sistemlerinde encok flex kullaniliyor number1 */
+
+/* !clear both ozellig siralamayi saglar */
+
+img {
+  width: 30%;
+  float: left;
+}
+
+/* .text {
+    float: right;
+  } */
+
+.clear {
+  clear: both;
+}

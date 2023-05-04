@@ -19,14 +19,17 @@ p.percent {
 
 .div1 {
   background-color: tomato;
-  width: 20%;
+  width: 50%;
+  height: 200px;
 }
 .div2 {
   background-color: forestgreen;
   width: 50%;
+  height: 50%;
 }
 
 .div3 {
   background-color: blue;
   width: 50%;
 }
+/* Boddy nin default yuksekligi yoktur. Bu sebeple childelardan birinine yuzdelik verildiginde o yuksekslik calismaz. */

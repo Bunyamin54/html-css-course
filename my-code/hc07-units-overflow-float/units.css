@@ -42,6 +42,6 @@ p.percent {
 .div3 {
   background-color: blue;
   width: 90vw;
-  height: 50%;
+  height: 50vh;
 }
 /* Boddy nin default yuksekligi yoktur. Bu sebeple childelardan birinine yuzdelik verildiginde o yuksekslik calismaz. */

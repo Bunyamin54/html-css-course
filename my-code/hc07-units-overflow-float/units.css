@@ -4,6 +4,10 @@ h1 {
 }
 
 p {
-  font-size: 20px;
   font-size: 1cqmin;
+  font-size: 10mm;
+  font-size: 1in;
+  font-size: 20px;
+  /* goreceli degil mutlak olcu birimleridir cm mm inc px */
+  /* absolut olcu birimleri bunlar */
 }

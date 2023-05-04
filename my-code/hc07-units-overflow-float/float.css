@@ -1,8 +1,7 @@
-/*! Folat layout sistemi Sayfa yerlestirme sistemi akisi degistiriyor. */
-/* ?Felx box posi-lion propertysini Float ,dispaly , css grid yontemleri ile layout degistirilebilir */
-/* !layout sistemlerinde encok flex kullaniliyor number1 */
-
-/* !clear both ozellig siralamayi saglar */
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
 
 img {
   width: 30%;
@@ -16,3 +15,29 @@ img {
 .clear {
   clear: both;
 }
+.box {
+  float: left;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.box1 {
+  background-color: green;
+  width: 30%;
+}
+
+.box2 {
+  background-color: magenta;
+  width: 25%;
+}
+
+.box3 {
+  background-color: turquoise;
+  width: 35%;
+}
+
+/*! Folat layout sistemi Sayfa yerlestirme sistemi akisi degistiriyor. */
+/* ?Felx box posi-lion propertysini Float ,dispaly , css grid yontemleri ile layout degistirilebilir */
+/* !layout sistemlerinde encok flex kullaniliyor number1 */
+
+/* !clear both ozellig siralamayi saglar */

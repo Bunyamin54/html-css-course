@@ -1,3 +1,13 @@
+html {
+  height: 100%;
+}
+
+/*! yuzdelik de hep parente bakilir parentin parentina  */
+/* html yukseklik vermek daha garanti olur.  */
+body {
+  height: 100%;
+}
+
 h1 {
   color: red;
   font-size: 30px;
@@ -20,7 +30,7 @@ p.percent {
 .div1 {
   background-color: tomato;
   width: 50%;
-  height: 200px;
+  height: 50%;
 }
 .div2 {
   background-color: forestgreen;
@@ -30,6 +40,6 @@ p.percent {
 
 .div3 {
   background-color: blue;
-  width: 50%;
+  width: vw50;
 }
 /* Boddy nin default yuksekligi yoktur. Bu sebeple childelardan birinine yuzdelik verildiginde o yuksekslik calismaz. */

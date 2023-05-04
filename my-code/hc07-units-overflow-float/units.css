@@ -6,6 +6,8 @@ html {
 /* html yukseklik vermek daha garanti olur.  */
 body {
   height: 100%;
+  height: 100vh;
+  background-color: #bebe;
 }
 
 h1 {

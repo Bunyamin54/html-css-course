@@ -37,18 +37,19 @@ p.percent {
 }
 .div2 {
   background-color: forestgreen;
-  width: 50%;
-  height: 50%;
+  width: 90vw;
+  height: 50vh;
 }
 
 .div3 {
   background-color: blue;
-  width: 90vw;
-  height: 50vh;
+  width: 50%;
+  height: 50%;
 }
 /* Boddy nin default yuksekligi yoktur. Bu sebeple childelardan birinine yuzdelik verildiginde o yuksekslik calismaz. */
 /*! em olcu birimi  defoult buyuklugun 2 kati demis oluyoruz*/
-
+/* ?font size larda em gorulebilir */
+/* ?%100 1 em demektir- em ile yuzde birbirine benzer */
 .div4 {
   background-color: indigo;
   color: white;
@@ -59,11 +60,11 @@ p.percent {
   background-color: lightblue;
   color: white;
   font-size: 2em;
-  width: 150px;
+  /* width: 2em; */
 }
 .div6 {
   background-color: yellowgreen;
   color: white;
-  font-size: 3em;
+  font-size: 0.5em;
   width: 150px;
 }

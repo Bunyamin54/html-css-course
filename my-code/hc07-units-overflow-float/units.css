@@ -47,3 +47,23 @@ p.percent {
   height: 50vh;
 }
 /* Boddy nin default yuksekligi yoktur. Bu sebeple childelardan birinine yuzdelik verildiginde o yuksekslik calismaz. */
+/*! em olcu birimi  defoult buyuklugun 2 kati demis oluyoruz*/
+
+.div4 {
+  background-color: indigo;
+  color: white;
+  font-size: 2em;
+  width: 150px;
+}
+.div5 {
+  background-color: lightblue;
+  color: white;
+  font-size: 1em;
+  width: 150px;
+}
+.div6 {
+  background-color: yellowgreen;
+  color: white;
+  font-size: 1em;
+  width: 150px;
+}

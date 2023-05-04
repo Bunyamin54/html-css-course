@@ -3,11 +3,16 @@ h1 {
   font-size: 30px;
 }
 
-p {
+p.abs {
   font-size: 1cqmin;
   font-size: 10mm;
   font-size: 1in;
-  font-size: 20px;
+  font-size: 10px;
   /* goreceli degil mutlak olcu birimleridir cm mm inc px */
   /* absolut olcu birimleri bunlar */
+}
+
+p.percent {
+  font-size: 200%;
+  font-size: 50%;
 }

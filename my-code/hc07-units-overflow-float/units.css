@@ -16,3 +16,15 @@ p.percent {
   font-size: 200%;
   font-size: 50%;
 }
+
+.div1 {
+  background-color: tomato;
+  width: 20%;
+}
+.div2 {
+  background-color: forestgreen;
+}
+
+.div3 {
+  background-color: blue;
+}

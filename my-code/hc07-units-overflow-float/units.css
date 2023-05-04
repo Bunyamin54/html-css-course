@@ -20,6 +20,7 @@ p.abs {
   font-size: 10px;
   /* goreceli degil mutlak olcu birimleridir cm mm inc px */
   /* absolut olcu birimleri bunlar */
+  /* yuzde parente bagli iken vw ekrana baglidir. vw viewport ekranin % sini alir */
 }
 
 p.percent {
@@ -40,6 +41,7 @@ p.percent {
 
 .div3 {
   background-color: blue;
-  width: vw50;
+  width: 90vw;
+  height: 50%;
 }
 /* Boddy nin default yuksekligi yoktur. Bu sebeple childelardan birinine yuzdelik verildiginde o yuksekslik calismaz. */

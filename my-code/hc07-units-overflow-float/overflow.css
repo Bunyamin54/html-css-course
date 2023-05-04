@@ -4,6 +4,17 @@
   width: 20rem;
   height: auto;
 }
-.box {
+.box1 {
   overflow: visible;
+}
+/*!sabit yukseklik vermemiz gerektiginde overflov verilier */
+.box2 {
+  overflow: hidden;
+}
+.box3 {
+  overflow: auto;
+}
+
+.box4 {
+  overflow: scroll;
 }

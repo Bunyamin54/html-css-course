@@ -23,3 +23,15 @@ body {
 .header__right {
   float: right;
 }
+
+.header__item {
+  display: inline;
+}
+.header__link {
+  color: black;
+  padding: 0.5rem;
+  opacity: 0.7;
+}
+.header__link:hover {
+  text-decoration: underline;
+}

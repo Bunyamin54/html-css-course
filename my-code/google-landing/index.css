@@ -60,6 +60,18 @@ body {
   background-color: blue;
 }
 
+.header__link--avatar {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.header__link--avatar:hover {
+  height: 34px;
+  width: 34px;
+  background-color: #d3d3d3;
+}
+
 /* ! main */
 
 .main {
@@ -121,11 +133,11 @@ body {
   border: 1px solid rgb(211, 211, 211);
   box-shadow: rgb(211, 211, 211) 0.7px 0.7px 0.7px 0px;
 }
-.main_language {
+.main__language {
   margin-top: 1.1rem;
 }
 
-.main_language--link {
+.main__language--link {
   text-decoration: underline;
 }
 

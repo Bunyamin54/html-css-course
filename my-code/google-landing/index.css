@@ -49,10 +49,15 @@ body {
   width: 70px;
   height: 30px;
   background-color: #498af4;
+  color: white;
   border-radius: 4px;
   border: none;
   cursor: pointer;
   font-weight: 600;
+}
+
+.header__link--button:hover {
+  background-color: blue;
 }
 
 /* ! main */
@@ -129,7 +134,7 @@ body {
   bottom: 0;
   background-color: #f2f2f2;
   line-height: 40px;
-  width: 100%;
+  width: 100vw;
 }
 .footer__country {
   padding-left: 20px;

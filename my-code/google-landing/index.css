@@ -77,3 +77,8 @@ body {
   border: 1px solid #d3d3d3;
   margin: 20px auto;
 }
+
+.main__search-bar--magnifier {
+  height: 30px;
+  width: 30px;
+}

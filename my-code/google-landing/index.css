@@ -81,4 +81,13 @@ body {
 .main__search-bar--magnifier {
   height: 30px;
   width: 30px;
+  vertical-align: middle;
+  cursor: pointer;
+  /* ! vertical align dikeyde hizalar */
+}
+.main__search-bar--mic {
+  height: 20px;
+  width: 15px;
+  vertical-align: middle;
+  cursor: pointer;
 }

@@ -59,3 +59,13 @@ body {
 }
 
 /* ! main */
+
+.main {
+  margin-top: 150px;
+  text-align: center;
+}
+
+.main__logo {
+  height: 92px;
+  width: 272px;
+}

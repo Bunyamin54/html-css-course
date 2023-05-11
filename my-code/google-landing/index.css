@@ -10,3 +10,16 @@ body {
   font-size: 13px;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.header {
+  padding: 20px;
+  line-height: 27px;
+  /* ! elementlerin arasini acar line height satir yuksekligi demektir */
+}
+
+.header__left {
+  float: left;
+}
+.header__right {
+  float: right;
+}

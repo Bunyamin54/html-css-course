@@ -144,3 +144,15 @@ body {
   float: right;
   padding-right: 21px;
 }
+
+.footer__item {
+  display: inline;
+}
+.footer__link {
+  color: black;
+  padding: 0.5rem;
+  opacity: 0.7;
+}
+.footer__link:hover {
+  text-decoration: underline;
+}

@@ -46,11 +46,17 @@
   text-align: center;
   padding: 32px;
   background: linear-gradient(90deg, rgb(160, 225, 6), rgb(254, 96, 199));
-  text-decoration: none;
   transition: ease 1000ms;
   cursor: pointer;
 }
 
 .header__bottom a {
-  padding: 5px;
+  padding: 20px;
+  color: rgb(69, 55, 227);
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+.header__bottom a:hover {
+  color: white;
 }

@@ -15,8 +15,8 @@
 /*! linear gradient renk gecisi saglar */
 
 .left img {
-  width: 55px;
-  height: 60px;
+  width: 60px;
+  height: 78px;
   position: absolute;
   top: 10%;
   left: 3%;
@@ -28,7 +28,7 @@
   right: 0;
   top: 50%;
 
-  /* !float rigt */
+  /* ! float rigt */
 }
 
 .right a {
@@ -39,5 +39,14 @@
 }
 
 .right a:hover {
-  border-bottom: 3px solid rgb(1, 52, 146);
+  border-bottom: 3px solid rgb(235, 7, 144);
+}
+
+.header__bottom {
+  text-align: center;
+  padding: 32px;
+  position: relative;
+ background: linear-gradient(90deg,rgb(160, 225, 6),rgb(254,96,199));
+
+}
 }

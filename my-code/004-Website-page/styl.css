@@ -5,5 +5,5 @@
 }
 
 .header__top {
-  background-color: rgb(215, 177, 217);
+  background: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
 }

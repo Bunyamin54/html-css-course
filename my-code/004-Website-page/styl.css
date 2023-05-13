@@ -60,3 +60,19 @@
 .header__bottom a:hover {
   color: white;
 }
+
+.boddy__top {
+  background-image: url(./img/banner.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  background-position: center center;
+  background-size: cover;
+}
+
+.body__p {
+  padding: 30px;
+  font-weight: 400;
+  text-align: justify;
+}

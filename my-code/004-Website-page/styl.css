@@ -6,7 +6,7 @@
 
 .header__top {
   background: linear-gradient(0deg, #593972 0%, #2da24a 100%);
-  position: relative;
+  /* position: relative; */
   height: 115px;
 
   /* ! vw ekran genisligine gore hareket eder. */
@@ -17,14 +17,14 @@
 .left img {
   width: 60px;
   height: 78px;
-  position: absolute;
   top: 10%;
   left: 3%;
   cursor: pointer;
 }
 
 .right {
-  position: absolute;
+  /* position: absolute; */
+  float: right;
   right: 0;
   top: 50%;
 
@@ -43,11 +43,15 @@
 }
 
 .header__bottom {
+  position: sticky;
   text-align: center;
   padding: 32px;
   background: linear-gradient(90deg, rgb(160, 225, 6), rgb(254, 96, 199));
   transition: ease 1000ms;
   cursor: pointer;
+  z-index: 1;
+  top: 0;
+  /* position: fixed; */
 }
 
 .header__bottom a {
@@ -61,14 +65,17 @@
   color: white;
 }
 
-.boddy__top {
-  background-image: url(./img/banner.jpg);
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
+.boddy__top img {
+  width: 100%;
+  height: 90%;
+
+  /* background-image: url(./img/banner.jpg); */
+  /* background-attachment: fixed; */
+  /* background-position: center; */
+  /* background-size: 100%;
   height: 50vh;
-  background-position: center center;
-  background-size: cover;
+  min-height: 50vh; */
+  /* background-position: center center; */
 }
 
 .body__p {

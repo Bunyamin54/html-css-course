@@ -5,5 +5,38 @@
 }
 
 .header__top {
-  background: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
+  background: linear-gradient(0deg, #593972 0%, #2da24a 100%);
+  position: relative;
+  height: 115px;
+
+  /* ! vw ekran genisligine gore hareket eder. */
+}
+/*! linear gradient renk gecisi saglar */
+
+.left img {
+  width: 55px;
+  height: 60px;
+  position: absolute;
+  top: 10%;
+  left: 3%;
+  cursor: pointer;
+}
+
+.right {
+  position: absolute;
+  right: 0;
+  top: 50%;
+
+  /* !float rigt */
+}
+
+.right a {
+  text-decoration: none;
+  color: rgb(228, 222, 222);
+  font-family: "Open Sans", sans-serif;
+  transition: ease 1000ms;
+}
+
+.right a:hover {
+  border-bottom: 3px solid rgb(1, 52, 146);
 }

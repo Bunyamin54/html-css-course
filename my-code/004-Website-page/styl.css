@@ -6,7 +6,7 @@
 
 .header__top {
   background: linear-gradient(0deg, #593972 0%, #2da24a 100%);
-  /* position: relative; */
+  position: relative;
   height: 115px;
 
   /* ! vw ekran genisligine gore hareket eder. */
@@ -25,7 +25,7 @@
 .right {
   /* position: absolute; */
   float: right;
-  right: 0;
+  right: 5%;
   top: 50%;
 
   /* ! float rigt */
@@ -93,4 +93,13 @@
   padding: 10px;
   border: none;
   border-radius: 5px;
+}
+
+.boddy__top {
+  position: relative;
+}
+.position {
+  position: absolute;
+  left: 60px;
+  top: 250px;
 }

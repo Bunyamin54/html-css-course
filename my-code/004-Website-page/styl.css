@@ -45,8 +45,12 @@
 .header__bottom {
   text-align: center;
   padding: 32px;
-  position: relative;
- background: linear-gradient(90deg,rgb(160, 225, 6),rgb(254,96,199));
-
+  background: linear-gradient(90deg, rgb(160, 225, 6), rgb(254, 96, 199));
+  text-decoration: none;
+  transition: ease 1000ms;
+  cursor: pointer;
 }
+
+.header__bottom a {
+  padding: 5px;
 }

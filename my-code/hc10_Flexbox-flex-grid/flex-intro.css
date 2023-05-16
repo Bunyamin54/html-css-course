@@ -80,6 +80,7 @@ ul.nav li {
 }
 
 /* * item seviyesinde ayar yapariz grow ve basis */
+/* ? 3 unu birlestiren kullanimi vardir 1 2 3 seklinde */
 /* ? flex grow  - nesnelerin buyume oranlarini belirler - itemlara verilir - toptan verilmez- kendi claslarina itemlara vermek lazm */
 
 /* ! flex- shrink item in ne sekilde kuculecegini veriyoruz. mevcut durma gore belirlenir. */

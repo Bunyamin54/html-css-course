@@ -7,3 +7,5 @@
 /* ! onemli olan hizalanmak istenenleri containere almamiz lazm ve flex yaptiktan sonra diger elemenler islevsellik kazanir */
 
 /* ? row- yan yana dizer / colum alt alta dizer kutulari butonlari  */
+
+/* * flex wrap propertisi no wrap containerin icersindeki elementler ekran ile birlikte sigmayanlar asagi iner Responsiv tasarim icn onemli bir ozellik- default degeri nowrap dir . acilmali flex-wrap ile*/

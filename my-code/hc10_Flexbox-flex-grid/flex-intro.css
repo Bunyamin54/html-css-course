@@ -81,3 +81,5 @@ ul.nav li {
 /* ? flex grow  - nesnelerin buyume oranlarini belirler - itemlara verilir - toptan verilmez- kendi claslarina itemlara vermek lazm */
 
 /* ! flex- shrink item in ne sekilde kuculecegini veriyoruz. mevcut durma gore belirlenir. */
+
+/* ! flex- basis itemin belli buyuklugu olsun ve onun uzerine buyuyup kuculsun */

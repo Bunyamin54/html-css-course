@@ -9,3 +9,7 @@
 /* ? row- yan yana dizer / colum alt alta dizer kutulari butonlari  */
 
 /* * flex wrap propertisi no wrap containerin icersindeki elementler ekran ile birlikte sigmayanlar asagi iner Responsiv tasarim icn onemli bir ozellik- default degeri nowrap dir . acilmali flex-wrap ile*/
+
+/* !gap ozelligi onemli bosluk birakabilirz */
+
+/* * justifey-content elementleri yatayda hizalamak icindir.Default degeri flex-start dir */

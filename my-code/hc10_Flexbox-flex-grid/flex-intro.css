@@ -16,4 +16,6 @@
 
 /* ? justify content yatay hizalama yapiyor */
 
-/* ? align-items pro dikey hizalama yapar containerde div icerisindeki divleri */
+/* ? (align-items) propertisi dikey hizalama yapar containerde div icerisindeki divleri */
+
+/* ! defoult degeri strech dir (strech) uzatir dikye / (flex-end )tabana center ortaya (baseline) yazilarin tabanina gore hizalar (flex-start )yukarida hizalar */

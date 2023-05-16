@@ -89,7 +89,10 @@ ul.nav li {
 /* ! flex- basis itemin belli buyuklugu olsun ve onun uzerine buyuyup kuculsun */
 
 .container header {
-  flex-grow: 2;
+  /* flex-grow: 2; */
+  /* ! flex basis bir itemein kapladigi ve kaplayacagi uzunlugu belirler  % rem px gibi degerler alabilir */
+
+  /* ! flex grow bir itemin digerlerine gore buyume oranini belirler 2 2 kat buyu demektir. */
   flex-basis: 100%;
 }
 
@@ -98,7 +101,7 @@ ul.nav li {
 }
 
 .container main {
-  flex-grow: 1;
+  flex-grow: 3;
 }
 
 .container .left {
@@ -106,5 +109,5 @@ ul.nav li {
 }
 
 .container .right {
-  flex-grow: 1;
+  flex-grow: 2;
 }

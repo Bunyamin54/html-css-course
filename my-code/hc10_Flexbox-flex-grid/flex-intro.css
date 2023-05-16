@@ -93,6 +93,8 @@ ul.nav li {
   /* ! flex basis bir itemein kapladigi ve kaplayacagi uzunlugu belirler  % rem px gibi degerler alabilir */
 
   /* ! flex grow bir itemin digerlerine gore buyume oranini belirler 2 2 kat buyu demektir. */
+
+  /* ! flex grow 0 ise item buyumez */
   flex-basis: 100%;
 }
 

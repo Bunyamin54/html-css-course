@@ -20,5 +20,17 @@
 
 /* ! defoult degeri strech dir (strech) uzatir dikye / (flex-end )tabana center ortaya (baseline) yazilarin tabanina gore hizalar (flex-start )yukarida hizalar */
 
-.list {
+ul.nav {
+  background-color: aqua;
+  list-style: none;
+  padding: 1rem;
 }
+
+ul.nav li {
+  background-color: chartreuse;
+  width: 7rem;
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 5px;
+  /* margin-bottom: 1rem; verilebilir.
+} */

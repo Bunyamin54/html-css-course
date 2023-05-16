@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  padding: 4rem;
+  background-color: #f8f5f1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+}
+
+.img {
+  flex: 1;
+}
+.text {
+  flex: 2;
+  flex-basis: 300px;
+}
+section.img img {
+  width: 100%;
+  min-width: 300px;
+}
+
+section.text h1,
+p {
+  line-height: 2;
+}

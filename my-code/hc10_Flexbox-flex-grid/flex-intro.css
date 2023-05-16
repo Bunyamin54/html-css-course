@@ -24,6 +24,8 @@ ul.nav {
   background-color: aqua;
   list-style: none;
   padding: 1rem;
+  height: 15rem;
+
   /*? Flex ozellgini aktif hale getirdik */
   display: flex;
   /* *Defoult direk row o yuzden direk yan yana dizer */
@@ -32,7 +34,7 @@ ul.nav {
   /* ! colum direk tekrar dikye yapar  [colum reverse yazilarn basliklarin sondan baslatir]*/
 
   /*? Satirlar arasi bosluk, ilk verilen satirlar arasi, 2. verilen sutunlar arasi bsoluktur */
-  gap: 2rem 2rem;
+  gap: 1rem;
 
   /* * gap ilk satirlar arasi ikincisi sutunlar arasi boslugu ayarlar */
 
@@ -41,6 +43,12 @@ ul.nav {
   /* ? wrap ekran kuculdugunde kutulari asagi indirir */
 
   justify-content: center;
+
+  align-items: center;
+  align-content: flex-start;
+  /* ! {align contetn}t kullanmak daha mantikli wrap aciksa bir grup olarak hareket etmesini istiyorsak blok olarak hareket ediyorlar */
+
+  /* ! dikey hizalamada strech  */
 }
 
 ul.nav li {
@@ -52,3 +60,5 @@ ul.nav li {
   /* margin-bottom: 1rem; verilebilir.
  */
 }
+
+/* ?( align content )ozellikle multi line dedigimiz cok satirli iceriklerin hizalanmasinda kullanilir */

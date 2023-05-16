@@ -39,6 +39,8 @@ ul.nav {
   /*? sikistirma veya alt satira gecebilme:flex-wrap: wrap, nowrap, wrap-reverse*/
   flex-wrap: wrap;
   /* ? wrap ekran kuculdugunde kutulari asagi indirir */
+
+  justify-content: center;
 }
 
 ul.nav li {

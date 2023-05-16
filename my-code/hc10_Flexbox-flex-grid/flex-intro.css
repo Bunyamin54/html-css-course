@@ -73,6 +73,7 @@ ul.nav li {
   display: flex;
   gap: 1rem;
   justify-content: center;
+  flex-wrap: wrap;
 }
 /* ! container icerisindeki tum elementleri * ile degistirirz */
 .container * {
@@ -86,3 +87,24 @@ ul.nav li {
 /* ! flex- shrink item in ne sekilde kuculecegini veriyoruz. mevcut durma gore belirlenir. */
 
 /* ! flex- basis itemin belli buyuklugu olsun ve onun uzerine buyuyup kuculsun */
+
+.container header {
+  flex-grow: 2;
+  flex-basis: 100%;
+}
+
+.container footer {
+  flex-basis: 100%;
+}
+
+.container main {
+  flex-grow: 1;
+}
+
+.container .left {
+  flex-grow: 1;
+}
+
+.container .right {
+  flex-grow: 1;
+}

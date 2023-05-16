@@ -62,3 +62,22 @@ ul.nav li {
 }
 
 /* ?( align content )ozellikle multi line dedigimiz cok satirli iceriklerin hizalanmasinda kullanilir */
+
+.container {
+  margin-top: 2rem;
+  background-color: green;
+  padding: 1rem;
+  color: white;
+  font-size: 1.2rem;
+
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+/* ! container icerisindeki tum elementleri * ile degistirirz */
+.container * {
+  background-color: red;
+}
+/* ? flex grow  - nesnelerin buyume oranlarini belirler - itemlara verilir - toptan verilmez- kendi claslarina itemlara vermek lazm */
+
+/* ! flex- shrink item in ne sekilde kuculecegini veriyoruz. mevcut durma gore belirlenir. */

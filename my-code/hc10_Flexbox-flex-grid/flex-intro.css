@@ -35,7 +35,7 @@ ul.nav {
 
   /* * gap ilk satirlar arasi ikincisi sutunlar arasi boslugu ayarlar */
 
-  flex-wrap: wrap-reverse;
+  flex-wrap: wrap;
   /* ? wrap ekran kuculdugunde kutulari  */
 }
 

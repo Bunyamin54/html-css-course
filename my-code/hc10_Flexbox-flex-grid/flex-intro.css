@@ -96,6 +96,8 @@ ul.nav li {
 
   /* ! flex grow 0 ise item buyumez */
   flex-basis: 100%;
+  flex: 1 100%;
+  /* * ikili kullanim birincisi grow ikincisi basis */
 }
 
 .container footer {
@@ -104,6 +106,8 @@ ul.nav li {
 
 .container main {
   flex-grow: 3;
+  flex: 3;
+  /* * flex grow 3 basis 0 vermis oluyoruz defoult olarak */
 }
 
 .container .left {

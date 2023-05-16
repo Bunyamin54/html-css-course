@@ -78,6 +78,8 @@ ul.nav li {
 .container * {
   background-color: red;
 }
+
+/* * item seviyesinde ayar yapariz grow ve basis */
 /* ? flex grow  - nesnelerin buyume oranlarini belirler - itemlara verilir - toptan verilmez- kendi claslarina itemlara vermek lazm */
 
 /* ! flex- shrink item in ne sekilde kuculecegini veriyoruz. mevcut durma gore belirlenir. */

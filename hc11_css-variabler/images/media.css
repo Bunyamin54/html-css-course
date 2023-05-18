@@ -87,7 +87,7 @@ main .card article {
 }
 
 main .card img {
-  width: 200px%;
+  width: 200px;
 }
 
 main .card:nth-child(even) {

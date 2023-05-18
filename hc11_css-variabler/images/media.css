@@ -80,9 +80,16 @@ nav {
   }
   nav img {
     width: 250px;
+    min-width: 300px;
   }
 }
 
+header.hero .section-text {
+  flex: 1.9;
+}
+header.hero .section-img {
+  flex: 1;
+}
 @media screen and (max-width: 420px) {
   .section-btn {
     display: flex;

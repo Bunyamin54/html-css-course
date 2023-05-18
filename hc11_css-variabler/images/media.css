@@ -1,16 +1,21 @@
-@import "media.css";
+@import "../theme.css";
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+body {
+  font-family: var(--ff-roboto);
+}
 .container {
   margin: auto;
   border: 1px solid red;
   max-width: 1200px;
   margin: 2rem auto;
 }
+
 button {
   border: 2px solid var(--red-dark);
   border-radius: 5px;
@@ -37,6 +42,29 @@ button:hover {
   color: var(--white);
 }
 
+header.hero {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  text-align: justify;
+  gap: 1rem;
+}
+
+header.hero section {
+  flex: 1rem;
+}
+header.hero h1,
+p {
+  line-height: var(--line-h-xl);
+}
+header.hero img {
+  width: 400px;
+}
+
+nav img {
+  width: 200px;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -49,5 +77,19 @@ nav {
 @media screen and (max-width: 700px) {
   nav {
     flex-direction: column;
+  }
+  nav img {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .section-btn {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-btn button {
+    margin: 0.75rem;
+    width: 250px;
   }
 }

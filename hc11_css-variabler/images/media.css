@@ -87,10 +87,10 @@ main .card article {
 }
 
 main .card img {
-  width: 100%;
+  width: 200px%;
 }
 
-main .card {
+main .card:nth-child(even) {
   flex-direction: column;
 }
 main .card:nth-child(even) {

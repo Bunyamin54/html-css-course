@@ -73,6 +73,21 @@ nav {
   padding: 1rem;
 }
 
+main .card {
+  display: flex;
+  align-items: center;
+  border: 20px;
+  box-shadow: var(--shadow-light);
+  padding: 1rem;
+  gap: 1rem;
+}
+main .card article {
+  flex: 1;
+}
+
+main .card img {
+  width: 100%;
+}
 /* ! media sorgulari */
 @media screen and (max-width: 700px) {
   nav {

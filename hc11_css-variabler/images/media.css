@@ -89,6 +89,13 @@ main .card article {
 main .card img {
   width: 100%;
 }
+
+main .card {
+  flex-direction: column;
+}
+main .card:nth-child(even) {
+  flex-direction: row-reverse;
+}
 /* ! media sorgulari */
 @media screen and (max-width: 700px) {
   nav {

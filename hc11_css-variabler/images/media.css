@@ -80,6 +80,7 @@ main .card {
   box-shadow: var(--shadow-light);
   padding: 1rem;
   gap: 1rem;
+  margin: 2rem 0;
 }
 main .card article {
   flex: 1;

@@ -7,7 +7,7 @@
   display: grid;
   height: 100vh;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 150px 100px 1fr 100px;
+  grid-template-rows: 200px 100px 1fr 100px;
   text-align: center;
 }
 
@@ -27,7 +27,7 @@ nav {
 }
 aside {
   grid-column: span 3;
-  background-color: darkcyan;
+  background-color: wheat;
 }
 
 main {

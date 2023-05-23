@@ -9,12 +9,21 @@
   grid-template-columns: 200px 4rem 1fr 2fr;
   grid-template-columns: repeat(4, 1fr);
 
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr) max-content;
+  /* ! max-content icerikler arasinda en doluya gore karar verir */
 }
 
+/*! Grid Container icerisindeki item'lara Flex özelliği kazandirilabilir.
+  /*! Boylece item'larin icerisindeki content'lerin yatay ve dikey hizalamasi yapilabilir. */
 .content {
   border: 1px solid black;
   background-color: #dede;
+  object-fit: none;
+  object-position: center center;
+}
+
+.C11 {
+  overflow: auto;
 }
 
 .C6 img {
@@ -28,4 +37,10 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

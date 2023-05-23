@@ -52,7 +52,17 @@
   grid-row-start: 3;
   grid-row-end: 5;
   background-color: aqua; */
-
+  /* * grid area row start - col start - row end - col end */
   grid-area: 3/2/5/4;
   background-color: aquamarine;
+}
+
+.c12 {
+  grid-column: span 3;
+  background-color: blue;
+}
+
+.c15 {
+  grid-row: span 2;
+  background-color: yellowgreen;
 }

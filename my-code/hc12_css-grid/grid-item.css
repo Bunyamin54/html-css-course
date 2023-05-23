@@ -4,5 +4,55 @@
 }
 
 .container {
+  height: 100vh;
   display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem 1.5rem;
+  border: 1px solid red;
+
+  /* ! grid yatay duzeyde hizalamak icin  */
+  justify-content: center;
+}
+
+.content {
+  border: 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.c3 {
+  align-self: flex-end;
+}
+
+.c6 {
+  justify-self: end;
+  /*! itemlari bireysel olarak yatay duzeyde hizalar */
+}
+
+.c7 {
+  align-self: flex-start;
+  /* ! itemlari bireysel olarak dikey duzeyde hizalar */
+}
+
+.c1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.c4 {
+  grid-row-start: 2;
+  grid-row-end: 4;
+  background-color: red;
+}
+
+.c8 {
+  /* grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 5;
+  background-color: aqua; */
+
+  grid-area: 3/2/5/4;
+  background-color: aquamarine;
 }

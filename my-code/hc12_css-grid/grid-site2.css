@@ -19,7 +19,6 @@
 }
 
 header {
-  /* grid-column: span 12; */
   grid-area: header;
 }
 
@@ -29,24 +28,20 @@ header img {
   object-fit: cover;
 }
 nav {
-  /* grid-column: span 12; */
   background-color: plum;
   grid-area: nav;
 }
 
 aside {
-  /* grid-column: span 3; */
   grid-area: aside;
   background-color: yellow;
 }
 main {
-  /* grid-column: span 9; */
   grid-area: main;
   background-color: yellowgreen;
 }
 
 footer {
-  /* grid-column: span 12; */
   grid-area: footer;
   background-color: violet;
 }

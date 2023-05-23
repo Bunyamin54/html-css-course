@@ -6,13 +6,11 @@
 .grid {
   display: grid;
   height: 100vh;
-
   grid-template-areas:
     "header header header header"
     "nav nav nav nav"
-    "aside aside aside aside"
+    "aside main main main"
     "footer footer footer footer";
-
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 200px 100px 1fr 100px;
   text-align: center;
@@ -28,8 +26,8 @@ header img {
   object-fit: cover;
 }
 nav {
-  background-color: plum;
   grid-area: nav;
+  background-color: plum;
 }
 
 aside {
@@ -49,10 +47,11 @@ footer {
 @media screen and (max-width: 400px) {
   .grid {
     grid-template-areas:
-      " header"
-      " nav"
-      " aside"
-      " footer";
-    grid-template-columns: 1fr;
+      "header"
+      "nav"
+      "aside"
+      "main"
+      "footer";
+    grid-template-columns: auto;
   }
 }

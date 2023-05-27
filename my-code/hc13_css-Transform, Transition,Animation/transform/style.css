@@ -41,11 +41,7 @@ li u {
   font-size: 1.3rem;
 }
 
-
-
-
-
-/* .text {
+.text {
   text-align: center;
   margin: 2rem auto;
   width: 50vw;
@@ -68,24 +64,46 @@ li u {
 
 .rotate {
   background-color: greenyellow;
-  /* transform: rotate(45deg); */
-  /* transform: rotate(-30deg); */
+  transform: rotate(-20deg);
 }
+
+.scale-x {
+  background-color: cornflowerblue;
+}
+
+.scale-y {
+  background-color: aqua;
+}
+.scale {
+  background-color: salmon;
+}
+/* .rotate-x {
+  background-color: chocolate;
+  transform: rotateX(180deg);
+} */
+
+/* .rotate-y {
+  background-color: crimson;
+  transform: rotateY(180deg); */
+
+/* .rotate {
+  background-color: greenyellow; */
+/* transform: rotate(45deg); */
+/* transform: rotate(-30deg); */
 
 /* ******** TRANSFORM-SCALE ************ */
 /* scale boyutlandırma için kullanılır */
 
-.scale-x {
+/* .scale-x {
   background-color: cornflowerblue;
   transform: scaleX(2);
   /* transform: scaleX(-1); y eksenine göre simetriğini alır */
-}
 
+/* 
 .scale-y {
   background-color: darkorange;
-  transform: scaleY(2);
-  /* transform: scaleY(-1); x eksenine göre simetriğini alır*/
-}
+  transform: scaleY(2); */
+/* transform: scaleY(-1); x eksenine göre simetriğini alır*/
 
 /* .scale {
   background-color: deeppink;
@@ -97,18 +115,16 @@ li u {
   height: 200px; 
 } */
 
-.scale {
+/* .scale {
   background-color: deeppink;
   transform: scale(1.1);
   &:hover {
     transform: scale(3);
     /* transform: scale(1.1); transformla veri,len ölçek orjinal ölçeğimizi değiştirmediği için 1.1 değişiklik olarak algılanmıyor. */
-  }
-}
 
 /* ************* -TRANSFORM- TRANSLATE ********* */
 /* Translate öteleme,hareket ettirmek için kullanılır. */
-
+/* 
 .translate-div {
   margin-top: 2rem;
   display: flex;
@@ -119,38 +135,33 @@ li u {
   }
   .box {
     width: 100px;
-    height: 50px;
-  }
-}
+    height: 50px; */
 
+/* 
 .translate-x {
   background-color: #b4cf66;
   &:hover {
     /* transform: translateX(100px); */
-    transform: translateX(-100px);
-  }
-}
+/* transform: translateX(-100px); */
 
-.translate-y {
-  background-color: #ffec5c;
-  /* transform: translateY(150px); */
-  /* transform: translateY(-250px); */
-}
+/* .translate-y {
+  background-color: #ffec5c; */
+/* transform: translateY(150px); */
+/* transform: translateY(-250px); */
 
+/* 
 .translate {
   background-color: #ff5a33;
   &:hover {
     /* transform: translate(50px); */
-    transform: translate(
+/* transform: translate(
       50px,
-      350px
-    ); /*ilk parametre x ekseni,ikinci parametrede y ekseni*/
-  }
-}
+      350px */
+/*ilk parametre x ekseni,ikinci parametrede y ekseni*/
 
 /* ************* -TRANSFORM- SKEW ********* */
 
-.skew-div {
+/* .skew-div {
   margin: 2rem;
   text-align: center;
   .image {
@@ -158,6 +169,4 @@ li u {
     border-radius: 13px;
     transform: skew(45deg);
     /* transform: skewX(45deg); */
-    /* transform: skewY(45deg); */
-  }
-} */
+/* transform: skewY(45deg); */

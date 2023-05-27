@@ -11,6 +11,12 @@
   text-align: center;
   flex-wrap: nowrap;
 }
+
+.grid-item:hover {
+  background-color: green;
+  transition: 500ms;
+}
+
 .grid-item {
   display: flex;
   background-color: #a5a5a5;

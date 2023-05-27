@@ -83,7 +83,7 @@ li u {
   transform: scale(1.2);
   /* ! guzel bir ozellik scale clasin icinde hoveri bu sekilde de verebiliriz. */
   &:hover {
-    transform: scale(2);
+    transform: scale(1);
   }
 }
 
@@ -98,19 +98,27 @@ li u {
   .box {
     width: 100px;
     height: 50px;
+    margin-top: 20px;
   }
 }
 
 .translate-x {
-  background-color: forestgreen;
-  tr
-  
+  background-color: yellowgreen;
+  &:hover {
+    transform: translateX(50px);
+  }
 }
+
 .translate-y {
-  background-color: tomato;
+  background-color: turquoise;
+  transform: translateY(150px);
 }
+
 .translate {
   background-color: palevioletred;
+  &:hover {
+    transform: translate(-50px);
+  }
 }
 /* .scale:hover {
   /* transform: scale(2); */

@@ -111,7 +111,7 @@ li u {
 
 .translate-y {
   background-color: turquoise;
-  transform: translateY(150px);
+  transform: translateY(10px);
 }
 
 .translate {
@@ -120,6 +120,16 @@ li u {
     transform: translate(-50px);
   }
 }
+
+.skev-div {
+  margin: 2rem;
+  text-align: center;
+  .image {
+    border: 1px solid darkorange;
+    border-radius: 13px;
+  }
+}
+
 /* .scale:hover {
   /* transform: scale(2); */
 /* width: 50vw;

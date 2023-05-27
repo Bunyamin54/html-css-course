@@ -65,19 +65,34 @@ li u {
 
 .rotate {
   background-color: greenyellow;
-  transform: rotate(-20deg);
+  /* transform: rotate(-20deg); */
 }
-
+/* * olceklendirme */
 .scale-x {
   background-color: cornflowerblue;
+  transform: scaleX(2);
+  /* transform: scaleX(-1.3); */
 }
 
 .scale-y {
   background-color: aqua;
+  transform: scaleY(1.5);
 }
 .scale {
   background-color: salmon;
+  transform: scale(1.3);
+  /* ! guzel bir ozellik scale clasin icinde hoveri bu sekilde de verebiliriz. */
+  &:hover {
+    transform: scale(2);
+  }
 }
+
+/* .scale:hover {
+  /* transform: scale(2); */
+/* width: 50vw;
+  height: 200px;
+} */
+
 /* .rotate-x {
   background-color: chocolate;
   transform: rotateX(180deg);

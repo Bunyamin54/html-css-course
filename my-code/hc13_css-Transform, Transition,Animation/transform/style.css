@@ -44,7 +44,8 @@ li u {
 .text {
   text-align: center;
   margin: 2rem auto;
-  width: 50vw;
+  width: 70vw;
+  height: 10vw;
   font-size: 2rem;
 }
 

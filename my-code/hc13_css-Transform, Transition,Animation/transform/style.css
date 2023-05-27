@@ -17,7 +17,7 @@
 }
 .navbar img:hover {
   /* height: 150px; */
-  transform: scale(1.9) rotate(45deg);
+  transform: scale(1.9) rotate(20deg);
 }
 
 /* notes */
@@ -70,17 +70,17 @@ li u {
 /* * olceklendirme */
 .scale-x {
   background-color: cornflowerblue;
-  transform: scaleX(2);
+  transform: scaleX(1.2);
   /* transform: scaleX(-1.3); */
 }
 
 .scale-y {
   background-color: aqua;
-  transform: scaleY(1.5);
+  transform: scaleY(1.4);
 }
 .scale {
   background-color: salmon;
-  transform: scale(1.3);
+  transform: scale(1.2);
   /* ! guzel bir ozellik scale clasin icinde hoveri bu sekilde de verebiliriz. */
   &:hover {
     transform: scale(2);

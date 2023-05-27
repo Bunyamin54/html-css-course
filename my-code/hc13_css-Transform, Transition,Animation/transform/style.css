@@ -95,8 +95,23 @@ li u {
   & h1 {
     text-align: center;
   }
+  .box {
+    width: 100px;
+    height: 50px;
+  }
 }
 
+.translate-x {
+  background-color: forestgreen;
+  tr
+  
+}
+.translate-y {
+  background-color: tomato;
+}
+.translate {
+  background-color: palevioletred;
+}
 /* .scale:hover {
   /* transform: scale(2); */
 /* width: 50vw;

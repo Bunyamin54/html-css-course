@@ -127,6 +127,8 @@ li u {
   .image {
     border: 1px solid darkorange;
     border-radius: 13px;
+    /* transform: skew(45deg); */
+    transform: skewY(45deg);
   }
 }
 

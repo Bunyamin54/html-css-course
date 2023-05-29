@@ -43,18 +43,30 @@ nav {
   height: 70px;
   overflow: hidden;
   padding: 1rem;
-  /* transition-property: height; */
-  /* transition-duration: 3s; */
-  /* transition-timing-function: ease-in; */
-  /* transition-delay: 0.7s; */
-  /*shorthand*/
-  /* transition: height 3s ease-in 0.7s; */
-  transition: height 3s cubic-bezier(0.16, 0.84, 0.86, -0.03) 0.7s;
+  /* transition-property: height;
+  transition-duration: 3s;
+  transition-timing-function: ease-in;
+  transition-delay: 0.7s; */
+  transition: height 3s ease-in 0.7s;
+  transition: (cubic-bezier(0.35, 0.11, 0.68, 0.77));
 }
 
 nav:hover {
   height: 250px;
 }
+/* transition-property: height; */
+/* transition-duration: 3s; */
+/* transition-timing-function: ease-in; */
+/* transition-delay: 0.7s; */
+/*shorthand*/
+/* transition: height 3s ease-in 0.7s; */
+/* transition: height 3s cubic-bezier(0.16, 0.84, 0.86, -0.03) 0.7s;
+
+
+
+/* nav i {
+  font-size: 3rem;
+} */
 
 nav i {
   font-size: 3rem;
@@ -71,7 +83,7 @@ nav li {
   text-align: center;
 }
 
-.btn {
+/* .btn {
   text-align: center;
   margin: 1rem;
   & button {
@@ -82,8 +94,8 @@ nav li {
     font-size: 1.3rem;
     border-radius: 14px;
     width: 150px;
-    /* transition: background-color 3s, color 2s; */
-    /* transition: all 2s; */
+    transition: background-color 3s, color 2s;
+    transition: all 2s;
     &:hover {
       transition: all 2s;
       background-color: red;
@@ -92,17 +104,28 @@ nav li {
       color: white;
     }
   }
-}
+} */
 
-/* input {
+input {
   margin: 3rem;
   height: 40px;
   background-color: brown;
-  transition: width 3s; kendisine width vermediğimiz için değişikliği algılamadı ve o nedenle efektimiz çalışmadı.
+  transition: width 3s;
+  /* kendisine
+    width
+    vermediğimiz
+    için
+    değişikliği
+    algılamadı
+    ve
+    o
+    nedenle
+    efektimiz
+    çalışmadı. */
   &:focus {
     width: 350px;
   }
-} */
+}
 input {
   margin: 3rem;
   height: 40px;
@@ -113,3 +136,49 @@ input {
     width: 350px;
   }
 }
+
+.btn1 {
+  text-align: center;
+  margin: 1rem;
+
+  & button {
+    background-color: forestgreen;
+    color: yellow;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1.3rem;
+    width: 170px;
+    transition: all 1.8s;
+
+    &:hover {
+      transition: all 2s;
+      background-color: red;
+      border-radius: 30px;
+      color: white;
+      width: 300px;
+    }
+  }
+}
+
+/* .btn {
+  text-align: center;
+  margin: 1rem;
+  & button {
+    background-color: rgb(8, 120, 165);
+    color: yellow;
+    border: 2px solid gray;
+    padding: 20px;
+    font-size: 1.3rem;
+    border-radius: 14px;
+    width: 150px;
+    transition: background-color 3s, color 2s;
+    transition: all 2s;
+    &:hover {
+      transition: all 2s;
+      background-color: red;
+      border-radius: 30px;
+      width: 300px;
+      color: white;
+    }
+  } */

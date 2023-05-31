@@ -46,15 +46,16 @@
   bottom: 5rem;
 }
 
-
 .carousel-indicators{
 
 gap: 0.7rem;
 }
-
+/* * bootstrap tarafindan verilmis stilleri ezmek icin !important kullanilmasi gerekir. */
 .carousel-indicators button {
-    background-color: var(--red);
+    background-color: var(--red) !important;
 }
+
+
 /*! ------------ 3- ABOUT SECTION ----------- */
 
 /*! ------------- 4- INSTRUCTORS -------------*/

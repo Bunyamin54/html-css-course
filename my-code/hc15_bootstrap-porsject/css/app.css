@@ -60,6 +60,21 @@
 
 /*! ------------- 4- INSTRUCTORS -------------*/
 
+
+section#instructors .card{
+
+  transition: transform 0.3s ;
+}
+
+
+section#instructors .card:hover {
+  transform: scale(1.03);
+
+}
+
+
+
+
 /*! ----------- 4- STUDENTS SECTION ----------*/
 
 /*! ----------- 5- COURSES SECTION ----------- */

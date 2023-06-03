@@ -64,6 +64,7 @@
 section#instructors .card{
 
   transition: transform 0.3s ;
+  cursor: pointer;
 }
 
 
@@ -72,6 +73,14 @@ section#instructors .card:hover {
 
 }
 
+section#instructors i {
+
+  transition: opacity 0.4s;
+}
+section#instructors i:hover{
+  opacity: 0.5;
+
+}
 
 
 

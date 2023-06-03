@@ -103,3 +103,14 @@ color: white;
 /*! ----------- 6- CONTACT SECTION ------------ */
 
 /*! --------------- 7- FOOTER ----------------- */
+
+footer i:hover{
+color: var(--red);
+
+}
+
+footer i {
+  transition: color 0.7s;
+  margin-right: 0.9rem;
+  cursor: pointer;
+}

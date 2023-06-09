@@ -1,25 +1,30 @@
-// *** Selector ****
+// *********** Selectors ***********
+let userInput = document.getElementById("input-item");
+let addButton = document.getElementById("add-button");
+let showTask = document.querySelector(".container");
 
-let userInput = document.querySelector("#input-item")
-let addButton = document.querySelector("add-button")
-let showTask = document.querySelector(".container")
-
-// *** Event ****
-
+// *********** Events ***********
 addButton.addEventListener("click", (e) => {
-
-let checkbox = document.createElement("input")
+    let userText = userInput.value;
+    showTask.appendChild(createDiv(userText));
+    console.log(userText);
+    userInput.value =""
 
 })
-
-function createDiv(){
-
+function createDiv(userTextParameter){
     let newDiv = document.createElement("div");
     let newDivChild = document.createElement("div");
-    newDiv.className = "input-group mb-3"
-    newDivChild.className ="input-group-text"
-    newDiv.appendChild(newDivChild)
-
-
-
+    let newInput = document.createElement("input");
+    let newP = document.createElement("p");
+    newDiv.className = "input-group mb-3";
+    newDivChild.className = "input-group-text";
+    newInput.className = "form-check-input mt-0";
+    newInput.type = "checkbox";
+    newP.innerText = userTextParameter;
+    newDivChild.appendChild(newInput);
+    newDiv.appendChild(newDivChild);
+    newDiv.appendChild(newP);
+    return newDiv;
 }
+
+

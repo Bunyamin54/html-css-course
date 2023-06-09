@@ -1,4 +1,4 @@
-/ *********** Selectors ***********
+//*********** Selectors ***********
 let userInput = document.getElementById("input-item");
 let addButton = document.getElementById("add-button");
 let showTask = document.querySelector(".container");
@@ -28,7 +28,7 @@ function createDiv(userTextParameter){
             // Remove the parent div after 1 second
             setTimeout(function() {
                 newDiv.remove();
-            }, 2000);
+            }, 1000);
         }
     });
     newDivChild.appendChild(newInput);

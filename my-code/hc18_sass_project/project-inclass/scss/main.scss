@@ -1,3 +1,8 @@
 // main import sirasi onemlidir ortak olan dosyalara her yerden erisim saglayabilmemiz icin oncelikle ortak dosyalari import etmemiz gerekiyor
 @import "./base/reset";
-@import "./abstracts/variables","./abstracts/mixin";
+@import "./abstracts/variables","./abstracts/mixin";  //degiskenlerim ve fonksiyonlarim
+
+@import  "./components/footer","./components/navbar","./components/responsive";
+
+@import "./sections/home", "./sections/about","./sections/destination","./sections/guide";
+

@@ -1,34 +1,18 @@
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+/* Error: Undefined variable.
+ *    ,
+ * 30 |         color: $headercolor;
+ *    |                ^^^^^^^^^^^^
+ *    '
+ *   scss\components\_navbar.scss 30:16  @import
+ *   scss\main.scss 5:32                 root stylesheet */
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  display: flex;
-  justify-content: space-betwenn;
-  align-items: center;
-  padding: 1rem, 6rem;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a    \2577 \a 30 \2502          color: $headercolor;\d\a    \2502                 ^^^^^^^^^^^^\a    \2575 \a   scss\\components\\_navbar.scss 30:16  @import\a   scss\\main.scss 5:32                 root stylesheet";
 }
-.header i {
-  display: none;
-}
-.header__logo {
-  width: 50px;
-  height: 50px;
-}
-
-body {
-  background-color: #ffffff;
-  position: relative;
-}
-
-button, i {
-  cursor: pointer;
-}
-
-/*# sourceMappingURL=styl.css.map */

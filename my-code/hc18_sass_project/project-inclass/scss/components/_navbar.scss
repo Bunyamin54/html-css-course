@@ -10,8 +10,34 @@ padding : 1rem ,6rem;
 i {
     display: none;
 }
-&__logo{
+// ** bem notasyonu ile klas isimleri birlestirebilir
+&__logo{ 
     width: 50px;
     height: 50px;
+}
+
+&__links {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    li{
+
+        padding-right: 0.5rem;
+    }
+
+    &--home{
+
+        color: $headercolor;
+        border: none;
+        background-color: $mainColor;
+    
+
+
+
+        @include fontmix(Inter,normal,500,1rem,19px)
+    }
+
+
+
 }
 }

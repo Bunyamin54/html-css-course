@@ -1,43 +1,40 @@
-// navbar 
+// navbar
 
 .header {
-
-display: flex;
-justify-content: space-between;
-align-items: center;
-@include flexMix(flex,space-betwenn);
-padding : 1rem ,6rem;
-i {
-    display: none;
-}
-// ** bem notasyonu ile klas isimleri birlestirebilir
-&__logo{ 
-    width: 50px;
-    height: 50px;
-}
-
-&__links {
-    display: flex;
-    align-items: center;
-    list-style-type: none;
-    li{
-
-        padding-right: 0.5rem;
+    // display: flex;
+    // justify-content: space-between;
+    // align-items: center;
+    // bu yorum satırı css dosyasına gitmez
+    /* bu yorum satırı css dosyasına gelir*/
+    @include flexMix(flex, space-between);
+    padding: 1rem 6rem;
+    i {
+      display: none;
     }
-
-    &--home{
-
-        color: $headercolor;
+    &__logo {
+      // bem notasyonu kullandığımızda class isimlerini birleştirebiliriz.
+      width: 50px;
+      height: 50px;
+    }
+    &__links {
+      display: flex;
+      align-items: center;
+      list-style-type: none;
+      li {
+        padding-right: 0.5rem;
+      }
+      &--home {
+        color: $headerColor;
         border: none;
         background-color: $mainColor;
-    
-
-
-
-        @include fontmix(Inter,normal,500,1rem,19px)
+      //   font-family: Inter;
+      //   font-style: normal;
+      //   font-weight: 500;
+      //   font-size: 1rem;
+      //   line-height: 19px;
+        @include fontMix(Inter,normal,500,1rem,19px);
+  
+      }
     }
-
-
-
-}
-}
+  }
+  

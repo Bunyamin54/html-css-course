@@ -16,6 +16,7 @@ function createDiv(userTextParameter){
     let newDivChild = document.createElement("div");
     let newInput = document.createElement("input");
     let newP = document.createElement("p");
+    
     newDiv.className = "input-group mb-3";
     newDivChild.className = "input-group-text";
     newInput.className = "form-check-input mt-0";

@@ -7,11 +7,7 @@ main.addEventListener("click", (e) => {
         if ((e.target.innerText == ".") && (screen.innerText == "")){
             screen.innerText = "0."
         } else {
-            // if (screen.innerText.includes(".") && e.target.innerText =="." ){
-            //     screen.innerText = screen.innerText
-            // }else {
-            //     screen.innerText += e.target.innerText
-            // }
+           
             if (!(screen.innerText.includes(".") && e.target.innerText ==".")){
                 screen.innerText += e.target.innerText
             }
